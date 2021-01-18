@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Michael Reyner](https://up.htmlacademy.ru/htmlcss/30/user/81933).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Казаков] (https://htmlacademy.ru/profile/id798257)
 
 ---
 
