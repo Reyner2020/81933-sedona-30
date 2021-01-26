@@ -6,7 +6,7 @@
   </head>
   <body>
     <header>
-      <a href="#" class="main-header-logo">
+      <a class="main-header-logo">
         <img src="img/logo.svg" alt="логотип Седона" width="138" height="70">
       </a>
       <nav>
@@ -85,12 +85,18 @@
       <section class="search-form">
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <h3>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h3>
+        <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
         <form>
           <label for="date-in">Дата заезда:</label>
           <input type="text" id="date-in" placeholder="24 апреля 2017">
+          <div class="calendar">
+            <a href="#"><img src="img/icon-calendar.svg" width="21" height="23" alt="календарь"></a>
+          </div>
           <label for="date-out">Дата выезда:</label>
           <input type="text" id="date-out" placeholder="4 июля 2017">
+          <div class="calendar">
+            <a href="#"><img src="img/icon-calendar.svg" width="21" height="23" alt="календарь"></a>
+          </div>
           <label for="old">Взрослые:</label>
           <input type="number" id="old">
           <label for="child">Дети:</label>
@@ -106,17 +112,19 @@
         <p>ТЕЛ: +7(495) 666-01-66</p>
         <div class="social-button">
           <a href="https://twitter.com">
-             <img src="img/icon-twitter.svg"  alt="twitter" width="17" height="15"> 
+            <img src="img/icon-twitter.svg"  alt="twitter" width="17" height="15"> 
           </a>
           <a href="https://facebook.com">
-          <img src="img/icon-fb.svg"  alt="twitter" width="12" height="22">
+            <img src="img/icon-fb.svg"  alt="facebook" width="12" height="22">
           </a>
           <a href="https://youtube.com">
-          <img src="img/icon-youtube.svg"  alt="twitter" width="20" height="16">
+            <img src="img/icon-youtube.svg"  alt="youtube" width="20" height="16">
           </a>
         </div>  
         <p>Website by</p>
-        <img src="img/icon-htmlacademy.svg" alt="logo" width="114" height="40"> 
+        <a href="https://htmlacademy.ru/intensive/htmlcss">
+          <img src="img/icon-htmlacademy.svg" alt="logo" width="114" height="40"> 
+        </a> 
       </footer>
     
 
