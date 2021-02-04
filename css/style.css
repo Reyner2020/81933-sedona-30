@@ -117,18 +117,22 @@ img {
     padding: 0 10px;
 }
 
+/* Slide */
+
+.slide { 
+    text-align: center;
+}
+
 /* Features */
 
 .features {
-    outline: 3px solid yellow;
     margin-bottom: 52px;
 }
 
 .features-list {
     list-style: none;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 .features-list ul {
@@ -141,6 +145,7 @@ img {
 
 .features-item p {
     margin: 0 10px;
+    color: var(--accent-text)
 }
 
 .feature-wrapper {
@@ -157,18 +162,19 @@ img {
     margin-bottom: 55px;
 }
 
-.features p {
+.features h1 {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    color: var(--basic-text);
+    color: var(--accent-text);
+    text-align: center;
 }
 
-.features h1 {
-    font-size: 14px;
-    line-height: 26px;
+.features h2 {
+    font: inherit;
     font-weight: 400;
     color: var(--accent-text);
+    text-align: center;
 }
 
 .features-list p {
@@ -178,12 +184,13 @@ img {
     color: var(--accent-text);
 }
 
-.features-list h2 {
+.features-list h3 {
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
     color: var(--basic-text);
 }
+
 
 /* Search */
 
@@ -207,7 +214,7 @@ img {
   
 .search-info {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 24px;
     font-weight: 400;
     color: var(--accent-text);
     margin-bottom: 35px;
@@ -216,17 +223,15 @@ img {
 .search-form {
     font-size: 14px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--basic-text);
     margin-top: 55px;
 }
 
 .search-form__input {
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 700;
-    color: var(--basic-text);
+    font: inherit;
     background-color: var(--ui-grey);
+    color: var(--basic-text);
     border: none;
     text-transform: uppercase;
 }
@@ -301,18 +306,17 @@ img {
     line-height: 26px;
     font-weight: 700;
     color: var(--basic-text);
-    outline: 3px solid green;
-    outline-offset: -5px;
-    
 }
 
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
 }
 
 .footer-contacts {
-    outline: 2px solid red;
+    text-align: center;
+    
 }
 
 .footer-phone {
@@ -320,7 +324,12 @@ img {
 }
 
 .footer-social {
-    outline: 2px solid yellow;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.footer-copyright {
+    padding-top: 38px;
 }
 
 
@@ -341,7 +350,6 @@ img {
     line-height: 26px;
     font-weight: 400;
     color: var(--basic-text);
-    outline: 2px solid blueviolet;
 }
 
 .footer-logo {
@@ -542,14 +550,7 @@ img {
 
 
 
-.slide {
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    text-align: center;
-    outline: 3px solid blue;
-    outline-offset: -5px;
-}
+
 
 
 
