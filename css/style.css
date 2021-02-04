@@ -1,7 +1,7 @@
 :root {
     --basic-bg: #ffffff;
     --basic-text: #000000;
-    --accent-text: rgba(51, 51, 51, 1); 
+    --accent-text: #333333; 
     --basic-accent: #81B3D2;
     --hover-blue: #669EC0;
     --active-blue: #5496BD;
@@ -372,6 +372,7 @@ img {
 .filters-form {
     background-image: url(../img/background-filter.jpg);
     background-repeat: no-repeat;
+    min-height: 217px;
 }
 
 .filters-form__name {
@@ -428,13 +429,14 @@ img {
     list-style: none;
 }
 
-.current {
+.current:visited {
     font: inherit;
     color: var(--basic-accent);
 }
 
 .select-item__link {
-    color: rgba(var(--basic-text), 0.3);
+    color: var(--basic-text);
+    opacity: 0.3;
 }
 
 .select-item__link:hover {
@@ -446,6 +448,8 @@ img {
     color: var(--basic-text);
     text-decoration: none;
 } 
+
+
 
 /* Result Search List */
 
@@ -541,11 +545,7 @@ img {
 
 
 
-/*
-.main-navigation {
-    display: grid;
-}
-*/
+
 
 
 
