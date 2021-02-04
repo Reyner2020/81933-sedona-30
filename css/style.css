@@ -143,7 +143,21 @@ img {
     text-align: center;
 }
 
-.features-item p {
+.feature-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px; 
+}
+
+.feature-text {
+    background-color: var(--basic-accent);
+}
+
+.feature-image {
+    width: 800px;
+}
+
+.feature-item p {
     margin: 0 10px;
     color: var(--accent-text)
 }
@@ -155,6 +169,7 @@ img {
     margin-bottom: 82px;
     margin-top: 47px;
 }
+
 
 .features-wrapper {
     display: grid;
