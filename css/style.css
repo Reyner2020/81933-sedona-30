@@ -20,7 +20,6 @@
     --basic-transparent: rgba(255, 255, 255, 0.9);
     --transparent-scale: rgba(255, 255, 255, 0.3);
     --transparent-text: rgba(0, 0, 0, 0.3);
-
 }
 
 @font-face {
@@ -55,11 +54,14 @@
     text-transform: uppercase;
     color: var(--basic-text);
     background-color: var(--basic-bg);
-    min-width: 1200px; 
+    width: 1200px; 
     min-height: 100%;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
+    box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2); 
+    margin: 0 auto;
+    position: relative; 
 }
 
 .visually-hidden {
@@ -77,12 +79,6 @@ a {
 img {
     max-width: 100%;
     height: auto;
-}
-
-.shadow-bg {
-    box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2); 
-    margin: 0 auto;
-    position: relative; 
 }
 
 /* Navigation */
@@ -350,7 +346,6 @@ img {
 }
 
 .search-form {
-    font-family: "PTSans-Bold";
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
