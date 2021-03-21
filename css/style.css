@@ -27,8 +27,8 @@
     font-weight: 400;
     font-style: normal;
     src: local("PTSans"),
-        url("/fonts/PTSans.woff2") format("woff2"),
-        url("/fonts/PTSans.woff") format("woff");
+        url("../fonts/PTSans.woff2") format("woff2"),
+        url("../fonts/PTSans.woff") format("woff");
 }
 
 @font-face {
@@ -36,8 +36,8 @@
     font-weight: 700;
     font-style: normal;
     src: local("PTSans-Bold"),
-        url("/fonts/PTSans-Bold.woff2") format("woff2"),
-        url("/fonts/PTSans-Bold.woff") format("woff");
+        url("../fonts/PTSans-Bold.woff2") format("woff2"),
+        url("../fonts/PTSans-Bold.woff") format("woff");
 }
 
 .page {
@@ -789,7 +789,7 @@ img {
     left: -42px;
     width: 27px;
     height: 23px;
-    background-image: url("/img/checkbox-on.svg");
+    background-image: url("../img/checkbox-on.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
 }
